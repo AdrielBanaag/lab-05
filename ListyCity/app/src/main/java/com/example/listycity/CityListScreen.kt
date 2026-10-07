@@ -57,7 +57,10 @@ fun CityListScreen(
                     }
                 }
             ) {
-                Text("+")
+                Text(
+                    text = "+",
+                    fontSize = 40.sp
+                )
             }
         }
         if (showAddCityFields) {
